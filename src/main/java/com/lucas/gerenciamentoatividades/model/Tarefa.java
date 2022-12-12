@@ -19,7 +19,7 @@ public class Tarefa {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	private String descricão;
+	private String descricao;
 	
 	@Column(name="data_entrega")
 	private LocalDate dataEntrega;
